@@ -246,3 +246,6 @@ if st.button("Analyse My Heart Risk"):
         st.error("cleveland_heart.csv not found. Make sure it's in the same folder as app.py")
     except Exception as e:
         st.error(f"Something went wrong: {e}")
+    
+        st.divider()
+st.caption("⚠️ Disclaimer: This is a student ML project for educational purposes only. Not medically certified. Always consult a qualified doctor for health advice.")
